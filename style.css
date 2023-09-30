@@ -1,0 +1,53 @@
+body{
+    /* background-color: black; */
+    overflow-x:hidden;
+}
+
+header{
+    position:fixed;
+    width:100%; 
+    z-index:1;
+    background-color: #1f4a6e;
+    /* background-color: #6aabb1; */
+}
+.theme-color1{
+    background-color: #1f4a6e;
+}
+.theme-color2{
+    background-color: #6aabb1;
+    
+}
+.text-color1{
+    color: #1f4a6e;
+}
+.text-color2{
+    color: #6aabb1;
+}
+.btn-text{
+    color:white;
+}
+
+#education-section{
+    overflow-x: hidden; 
+}
+#services-section{
+    overflow-x:hidden;
+}
+hr.style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.style-eight:after {
+    /* content: "§"; */
+    content:"*";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background:white;
+}
